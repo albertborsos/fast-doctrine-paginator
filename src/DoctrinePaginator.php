@@ -284,7 +284,7 @@ final class DoctrinePaginator implements PaginatorInterface
      *
      * {@inheritdoc}
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->generator;
     }
